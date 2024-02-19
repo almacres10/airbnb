@@ -1,12 +1,15 @@
 'use client';
 
+import Image from 'next/image';
+
 const Avatar = () => {
     return(
-        <image 
+        <Image 
         className="rounded-full" 
         height="30" 
-        width="30" 
-        src="/images/placeholder.jpg" />
+        width="30"
+        src="/images/placeholder.jpg" 
+        />
     );
 }
 
