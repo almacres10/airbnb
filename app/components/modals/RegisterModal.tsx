@@ -14,6 +14,7 @@ import useRegisterModal from "@/app/hooks/useRegisterModal";
 
 import Modal from "./modal";
 import Heading from "../Headings";
+import Input from "../inputs/Input";
 
 const RegisterModal= () => {
   const registerModal = useRegisterModal();
@@ -50,6 +51,7 @@ const RegisterModal= () => {
         subtitle="Create an account!"
         center
       />
+      <Input />
     </div>
   )
 
